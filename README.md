@@ -1,21 +1,18 @@
 
 # sysobject.ids
 
-[![Travis Build Status](https://travis-ci.org/fusioninventory/sysobject.ids.svg?branch=master)](https://travis-ci.org/fusioninventory/sysobject.ids)
+This repository handles the [GLPI Agent](https://github.com/glpi-project/glpi-agent/) `sysobject.ids` file database.
 
-This repository handles the [FusionInventory](http://fusioninventory.org/) `sysobject.ids` file database.
-
-`sysobject.ids` file database is a text-based file firstly intended to help to
+The `sysobject.ids` file database is a text-based file firstly intended to help to
 identify network products based on their exposed SNMP values.
 
-Actually it is only supported by
- [NetDiscovery](https://github.com/fusioninventory/fusioninventory-agent/blob/2.3.x/lib/FusionInventory/Agent/Task/NetDiscovery.pm)
- and [NetInventory](https://github.com/fusioninventory/fusioninventory-agent/blob/2.3.x/lib/FusionInventory/Agent/Task/NetInventory.pm)
-  tasks used by the [FusionInventory Agent](https://github.com/fusioninventory/fusioninventory-agent)
+# Documentation
+
+The `sysobject.ids` file format is documented in [GLPI Agent IDS Databases documentation](https://glpi-agent.readthedocs.io/en/latest/database.html).
 
 # Contribution
 
-Feel free to open an [issue](https://github.com/fusioninventory/sysobject.ids/issues) if you have any product supporting SNMP and you want to be discovered and inventoried by [FusionInventory Agent](https://github.com/fusioninventory/fusioninventory-agent) NetDiscovery and NetInventory tasks.
+Feel free to open an [issue](https://github.com/glpi-project/sysobject.ids/issues) if you have any product supporting SNMP and you want to be discovered and inventoried by [GLPI Agent](https://github.com/glpi-project/glpi-agent) NetDiscovery and NetInventory tasks.
 
 The `sysobject.ids` file is a text database mapping the SysObjectID snmp variable (`.1.3.6.1.2.1.1.2`) with manufacturer, type and model. It may also map to dedicated external module which can help to handle more complex case.
 
@@ -24,18 +21,20 @@ You can help populating the database by providing the output of following comman
 # snmpget -v2c -c public "serverIP" 1.3.6.1.2.1.1.2.0
 ```
 
-The following one, from a computer with [FusionInventory Agent](https://github.com/fusioninventory/fusioninventory-agent) installed, can also quickly help us:
+The following one, from a computer with [GLPI Agent](https://github.com/glpi-project/glpi-agent) installed, can also quickly help us:
 ```
-# fusioninventory-netinventory --credentials version:2c,community:public --debug --host "serverIP"
+# glpi-netinventory --credentials version:2c,community:public --debug --host "serverIP"
 ```
 
 As with the SysObjectID snmp variable content, you should provide the device related and expected manufacturer, type and model strings.
 
 The device type can be one of the following types:
-* COMPUTER
 * NETWORKING
 * PRINTER
 * STORAGE
+
+The following types could be set but are not supported on server-side, so they should not be used:
+* COMPUTER
 * POWER
 * PHONE
 * VIDEO
@@ -43,9 +42,9 @@ The device type can be one of the following types:
 
 # Release
 
-As [FusionInventory Agent](https://github.com/fusioninventory/fusioninventory-agent/releases) would be released we will tag the incorporated `sysobject.ids` file starting with 2.3.20.
+As [GLPI Agent](https://github.com/glpi-project/glpi-agent/releases) would be released we will tag the incorporated `sysobject.ids` file starting with 1.0.
 
 # Manual update
 
-You can manually update `sysobject.ids` file into the installed `fusioninventory-agent/share` folder. You just have to [download it](https://github.com/fusioninventory/sysobject.ids/raw/master/sysobject.ids),
+You can manually update `sysobject.ids` file into the installed `glpi-agent/share` folder. You just have to [download it](https://github.com/glpi-project/sysobject.ids/raw/master/sysobject.ids),
 but do that at your own risk and always make a backup before updating manually.
