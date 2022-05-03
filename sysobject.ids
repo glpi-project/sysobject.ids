@@ -2968,6 +2968,7 @@
 89.1.1.62.2	Radware	NETWORKING	Web Server Director
 89.1.1.62.6	Radware	NETWORKING	FireProof
 89.1.1.62.8	Radware	NETWORKING	LinkProof
+89.1.1.62.16	Radware	NETWORKING	DefensePro
 89.1.1.62.18	Radware	NETWORKING	CID
 89.1.1.62.20	Radware	NETWORKING	AppDirector 1000 AS2
 89.1.1.62.21	Radware	NETWORKING	AppDirector Global
@@ -4339,6 +4340,8 @@
 1872.1.13.3.3	Nortel	NETWORKING	Alteon Application Switch 4408
 1872.1.13.3.5.1	Nortel	NETWORKING	Alteon Application Switch 5224
 1872.1.13.3.5.2	Nortel	NETWORKING	Alteon Application Switch 5224XL
+1872.1.13.3.10.1	Radware	NETWORKING	Alteon	Application Switch 5208 SL (VX)
+1872.1.13.3.10.2	Radware	NETWORKING	Alteon	Application Switch 5208 SL (VX)
 1872.1.15	Nortel	NETWORKING	alteonL2-7Gbe
 1872.1.18.1	Nortel	NETWORKING	alteonL2/3Gbe
 1872.2.3.3.1	Nortel	NETWORKING	Alteon Switched Firewall 5014
@@ -5394,7 +5397,11 @@
 2620.1.6.123.1.41	Checkpoint	NETWORKING	SG12407
 2620.1.6.123.1.42	Checkpoint	NETWORKING	12600
 2620.1.6.123.1.48	Checkpoint	NETWORKING	VMware
+2620.1.6.123.1.57	Checkpoint	NETWORKING	Check Point TE250X
 2620.1.6.123.1.63	Checkpoint	NETWORKING	15400
+2620.1.6.123.1.79	Checkpoint	NETWORKING	Check Point 6500
+2620.1.6.123.1.83	Checkpoint	NETWORKING	Smart-1 625
+2620.1.6.123.1.100	Checkpoint	NETWORKING	Check Point 3800
 
 2636	Juniper	NETWORKING
 2636.1.1.1.1.1	Juniper	NETWORKING	M40
