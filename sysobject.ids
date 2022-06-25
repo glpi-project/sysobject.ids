@@ -9158,3 +9158,6 @@
 47196.4.1.1.1.2	Hewlett-Packard	NETWORKING	Aruba 8320-48G-SFP+
 
 55062	Qnap	STORAGE
+
+33049   Mellanox        NETWORKING
+33049.1.1.1.2100        Mellanox        NETWORKING      Onyx MSN2100
