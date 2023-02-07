@@ -25,4 +25,4 @@ test: sysobject.ids
 	  # 5 fields (but accept empty model)                                       \
 	  next if /^[0-9.]+\t[^\t]+\t($(TYPES))\t[^\t]*\t[^\t]+$$/;                 \
 	  die "Too much fields: $$_\n";'                                            \
-	  sysobject.ids
+	  sysobject.ids && echo VALIDATION: OK || echo VALIDATION: NOT OK
