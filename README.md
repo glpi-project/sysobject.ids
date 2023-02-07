@@ -40,6 +40,13 @@ The following types could be set but are not supported on server-side, so they s
 * VIDEO
 * KVM
 
+In the case you want to fix a model or a manufacturer which seems wrongly set to you, please justify your request as sometime manufacturer uses a generic sysObjectID OID.
+In that case, you may also want to open a [GLPI Agent issue](https://github.com/glpi-project/glpi-agent/issues) to request we add a better support for such generic OID with a dedicated MIBSupport plugin.
+
+You can also open a [pull request](https://github.com/glpi-project/sysobject.ids/pulls) after you have manually updated yourself your sysobject.ids file.
+When editing manually sysobject.ids file, always use tabulation as field separator or your entry won't even be read as expected.
+Before submitting, also check to add the entry at the right place to keep a numerically ordered list of supported OIDs.
+
 # Release
 
 As [GLPI Agent](https://github.com/glpi-project/glpi-agent/releases) would be released we will tag the incorporated `sysobject.ids` file starting with 1.0.
