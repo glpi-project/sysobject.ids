@@ -5357,8 +5357,8 @@
 2385.3.1.134.1.1	Sharp	PRINTER	MX-2651
 
 2435	Brother	PRINTER
-
-2435.2.3.9.1	Brother	PRINTER	MFC-9340CDW
+# Don't set a model as many different models can be found behind this OID, the right model should be retrieved by the dedicated MibSupport plugin
+2435.2.3.9.1	Brother	PRINTER
 
 2467	Cisco	NETWORKING
 2467.4.1	Cisco	NETWORKING	CSS100
