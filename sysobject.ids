@@ -5425,7 +5425,7 @@
 2620.1.6.123.1.79	Checkpoint	NETWORKING	Check Point 6500
 2620.1.6.123.1.83	Checkpoint	NETWORKING	Smart-1 625
 2620.1.6.123.1.100	Checkpoint	NETWORKING	Check Point 3800
-2620.1.6.123.1.2004  Checkpoint  NETWORKING  Quantum Spark 1570 Appliance
+2620.1.6.123.1.2004	Checkpoint	NETWORKING	Quantum Spark 1570 Appliance
 
 2636	Juniper	NETWORKING
 2636.1.1.1.1.1	Juniper	NETWORKING	M40
