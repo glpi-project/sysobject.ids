@@ -6713,6 +6713,9 @@
 10449	CA Technologies	NETWORKING
 10449.1	CA Technologies	NETWORKING	Gatekeeper X304L
 
+10642	Zebra Technologies	PRINTER
+10642.1.1	Zebra Technologies	PRINTER
+
 10734	Hewlett-Packard	NETWORKING
 10734.1.3.1	Hewlett-Packard	NETWORKING	TippingPoint 2000
 10734.1.3.2	Hewlett-Packard	NETWORKING	TippingPoint 600
@@ -7280,6 +7283,7 @@
 18334.1.1.1.2.1.110.3.4	Konica  PRINTER bizhub 364E
 18334.1.1.1.2.1.112.3.2	Konica	PRINTER	bizhub 224e
 18334.1.1.1.2.1.113.2.5	Konica	PRINTER	bizhub C3850
+18334.1.1.1.2.1.123.2.11	Konica	PRINTER	bizhub 287
 18334.1.1.1.2.1.129.2.2	Konica	PRINTER	bizhub C368
 18334.1.1.1.2.1.133.2.9	Konica	PRINTER	bizhub C227
 18334.1.1.1.2.1.144.2.1	Konica	PRINTER	bizhub C458
