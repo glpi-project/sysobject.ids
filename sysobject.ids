@@ -5948,6 +5948,10 @@
 4115.1.8.1	Arris	NETWORKING	D5
 4115.1.9.1	Arris	NETWORKING	E6000
 
+4196	Siemens	NETWORKING
+
+4329	Siemens	NETWORKING
+
 4413	Ubiquiti	NETWORKING
 
 4474	PaxComm	NETWORKING
@@ -6235,6 +6239,8 @@
 5567.1.1.101	Riverstone	NETWORKING	rs15008
 
 5596	Tandberg	VIDEO
+
+5597	Meinberg	NETWORKING
 
 # http://www.extremenetworks.com/support/policies/mibs/ (mibs.zip: enterasys-oids-mib.txt)
 5624	Enterasys	NETWORKING
@@ -7704,6 +7710,8 @@
 22610.1.3.23	A10 Networks	NETWORKING	Thunder Series 1030S
 22610.1.3.24	A10 Networks	NETWORKING	Thunder Series 930
 22610.1.3.27	A10 Networks	NETWORKING	Thunder Series 4430S
+
+22638	Siemens	NETWORKING
 
 24681	Qnap	STORAGE
 
